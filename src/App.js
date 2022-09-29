@@ -1,13 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import CartContaier from './components/CartContainer/CartContaier';
-import ExerciseDetails from './components/ExerciseDetails/ExerciseDetails';
+import Container from './component/Container/Container';
 
 function App() {
   return (
     <div className='container'>
-      <CartContaier></CartContaier>
-      <ExerciseDetails></ExerciseDetails>
+      <Container></Container>
     </div>
   );
 }
