@@ -13,7 +13,7 @@ const Cart = (props) => {
         <div className='full-cart'>
             <div className='nothing'></div>
             <div className='img-div'>
-                 <img src=''></img> 
+                 <img src={img}></img> 
             </div>
             <div className='card-details'>
                 <h3>{name}</h3>

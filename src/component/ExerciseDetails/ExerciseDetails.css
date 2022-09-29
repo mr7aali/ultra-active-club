@@ -1,7 +1,125 @@
 .exercise-container{
-    width: 550px;
+    width: 650px;
     height: 100vh;
     background-color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    right: 0;
    
-    
 }
+.author{
+    display: flex;
+    align-items: center;
+
+}
+.author-img{
+    height: 80px ;
+    width: 80px;
+    border: 1px solid blue;
+    border-radius: 30px;
+}
+.name{
+    margin-left: 8px;
+}
+.name h2{
+    margin: 0;
+}
+.name p{
+    margin: 0;
+}
+.halth-details{
+    background-color: #F2F4FA;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top:20px ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 11px;
+}
+
+/* kljgfdddgpogdfjlkgjdlskfjgldsfkjgldkfjgkdfjgdjfgldkjglksdjgflkjglkjsdgjdklgjdlgjd */
+
+.halth-details h1{
+     margin: 5px;
+}
+.halth-details p{
+     margin: 0px;
+}
+.halth-details span{
+     font-size: 18px;
+     font-weight: 400;
+     color: #9DACC1;
+}
+.brk{
+    margin: 15px 0;
+    font-size: 35px;
+}
+.set-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F4FA;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top:20px ;
+    border-radius: 10px;
+    padding: 10px;
+}
+.set-time div{
+    border-radius:50px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.set-time div:hover{
+    background-color: #5D5FEF;
+    color: #fff;
+}
+
+.exercise-time{
+    background-color: #F2F4FA;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top:20px ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.exercise-time h1{
+    font-size: 25px;
+    margin: 0;
+}
+.exercise-time div p{
+   
+    display: inline-block;
+    font-weight: 600;
+    font-size: 30px;
+}
+.exercise-time div span{
+   
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 25px;
+   cursor: pointer;
+   background-color: #5D5FEF;
+   color: #fff;
+}
+
