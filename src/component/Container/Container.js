@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CartContaier from '../CartContainer/CartContaier';
 import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
-
+import './Container.css'
 const Container = () => {
 
     const [details,setDetails]=useState([]);
@@ -12,9 +12,9 @@ const Container = () => {
     },[])
 
     return (
-        <div>
+        <div className='container'>
     
-            <CartContaier></CartContaier>
+            <CartContaier details={details}></CartContaier>
             <ExerciseDetails></ExerciseDetails>
         </div>
     );
