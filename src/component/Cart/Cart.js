@@ -2,19 +2,22 @@ import React from 'react';
 import './Cart.css'
 
 
-const Cart = () => {
+const Cart = (props) => {
    
-    
+   
+    const{name,blog,img,age,time}=props.detail;
+ 
+   
     
     return (
         <div className='full-cart'>
             <div className='nothing'></div>
             <div className='img-div'>
-                 {/* <img src=''></img> */}
+                 <img src=''></img> 
             </div>
             <div className='card-details'>
-                <h3>Dumbell</h3>
-                <p className='blog'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <h3>{name}</h3>
+                <p className='blog'>{blog}</p>
                 <p>For Age:</p>
                 <p>Time Required:</p>
             </div>
