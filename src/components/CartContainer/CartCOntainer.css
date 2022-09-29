@@ -1,8 +1,11 @@
 .full-container{
      width:100% ;
      background-color: #F2F4FA;
-     height: 100vh;
      padding: 20px 100px;
+}
+.all-cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 .full-container h1{
     color: #5D5FEF;
