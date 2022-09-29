@@ -1,0 +1,11 @@
+.blog-container{
+    padding: 100px;
+    background-color: #5D5FEF;
+}
+.footer-blog{
+    color: #5D5FEF;
+    margin-top: 35px;
+    background-color: #F2F4FA;
+    padding: 50px;
+    border-radius: 10px;
+}

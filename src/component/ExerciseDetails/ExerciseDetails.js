@@ -2,16 +2,15 @@ import React from 'react';
 import './ExerciseDetails.css'
 const ExerciseDetails = (props) => {
     const {time}=props;
-    let oldId;
+    
     const brackTime=(brTime,id)=>{
         document.getElementById('brackText').innerText=brTime;
         //  document.getElementById(id).style.background='#5D5FEF';
         //  document.getElementById(id).style.color='#fff';
 
-        //  document.getElementById(oldId).style.background='#fff';
-        //  document.getElementById(oldId).style.color='#0000';
+        localStorage.setItem(id,brTime);
 
-        oldId=id; 
+        
     }
     return (
         <div className='exercise-container'>
