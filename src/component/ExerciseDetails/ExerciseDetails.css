@@ -16,7 +16,11 @@
 .author-img{
     height: 80px ;
     width: 80px;
-    border: 1px solid blue;
+    border-radius: 30px;
+}
+.author-img img{
+    height: 100%;
+    width: 100%;
     border-radius: 30px;
 }
 .name{

@@ -13,13 +13,13 @@ const Cart = (props) => {
         <div className='full-cart'>
             <div className='nothing'></div>
             <div className='img-div'>
-                 <img src={img}></img> 
+                 <img src={img} alt="" srcset="" /> 
             </div>
             <div className='card-details'>
                 <h3>{name}</h3>
                 <p className='blog'>{blog}</p>
-                <p>For Age:</p>
-                <p>Time Required:</p>
+                <p>For Age: {age}</p>
+                <p>Time Required: {time}s</p>
             </div>
             <button>
                 <p>Add To list</p>

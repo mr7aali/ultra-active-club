@@ -5,7 +5,7 @@ const ExerciseDetails = () => {
         <div className='exercise-container'>
             <div className='author'>
                 <div className="author-img">
-                    <img src="" alt="" />
+                    <img src="https://i.ibb.co/NLcxQqs/pexels-maksim-goncharenok-4352151.jpg" alt="" />
                 </div>
                 <div className='name'>
                     <h2>Mr Aali</h2>

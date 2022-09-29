@@ -3,80 +3,80 @@
       "id": "1",
       "name": "Townsend Mcclure",
       "blog": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "img": "logo192.png",
-      "age": 5,
-      "time": 54
+      "img": "https://i.ibb.co/NtrYcZS/alexandra-tran-f-S3t-GOkp0x-Y-unsplash-min-1.jpg",
+      "age": "20-30",
+      "time": 40
     },
     {
       "id": "2",
       "name": "Roach Whitfield",
       "blog": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "img": "logo192.png",
-      "age": 5,
-      "time": 54
+      "img": "https://i.ibb.co/dkhGHkT/bruce-mars-o-LStr-TTMz2s-unsplash-min.jpg",
+      "age": "30-40",
+      "time": 60
     },
     {
       "id": "3",
       "name": "Madeleine Moses",
       "blog": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "img": "logo192.png",
-      "age": 5,
-      "time": 54
+      "img": "https://i.ibb.co/R9wzpJN/dane-wetton-t1-NEMSm1rg-I-unsplash-min.jpg",
+      "age": "25-40",
+      "time": 120
     },
     {
       "id": "5",
       "name": "Bobbie Ratliff",
       "blog": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "img": "img.jpg",
-      "age": 5,
+      "img": "https://i.ibb.co/yQGmMKh/gettyimages-1158242423-612x612.jpg",
+      "age": "30-40",
       "time": 54
     },
     {
       "id": "4",
       "name": "Cindy Horne",
       "blog": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "img": "img.jpg",
-      "age": 5,
-      "time": 54
+      "img": "https://i.ibb.co/P54wjFC/gym-equipment-accessories-on-stone-260nw-1644136534.webp",
+      "age": "20-25",
+      "time": 250
     },
     {
       "id": "6",
       "name": "Mcdonald Ayers",
       "blog": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "img": "img.jpg",
-      "age": 5,
-      "time": 54
+      "img": "https://i.ibb.co/3ybv9SH/istockphoto-625739874-612x612.jpg",
+      "age": "30-40",
+      "time": 100
     },
     {
       "id": "7",
       "name": "Pearson Maxwell",
       "blog": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "img": "img.jpg",
-      "age": 5,
-      "time": 54
+      "img": "https://i.ibb.co/0BPv0K8/istockphoto-1210720125-612x612.jpg",
+      "age": "30-40",
+      "time": 180
     },
     {
       "id": "8",
       "name": "Benson Keith",
       "blog": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "img": "img.jpg",
+      "img": "https://i.ibb.co/m5GX1Rz/istockphoto-1274950193-170667a.jpg",
       "age": 5,
-      "time": 54
+      "time": 250
     },
     {
       "id": "9",
       "name": "Benjamin Robertson",
       "blog": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "img": "img.jpg",
-      "age": 5,
-      "time": 54
+      "img": "https://i.ibb.co/2YpMwH0/limor-zellermayer-Jt-Ox-BIXI4-Lw-unsplash-min-1.jpg",
+      "age": "30-45",
+      "time": 300
     },
     {
       "id": "10",
       "name": "Huff Huff",
       "blog": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "img": "img.jpg",
-      "age": 5,
-      "time": 54
+      "img": "https://i.ibb.co/6XjnSFK/logan-weaver-lgnwvr-u76-Gd0h-P5w4-unsplash-min.jpg",
+      "age": "15-45",
+      "time": 400
     }
   ]
