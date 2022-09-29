@@ -1,6 +1,18 @@
 import React from 'react';
 import './ExerciseDetails.css'
-const ExerciseDetails = () => {
+const ExerciseDetails = (props) => {
+    const {time}=props;
+    let oldId;
+    const brackTime=(brTime,id)=>{
+        document.getElementById('brackText').innerText=brTime;
+        //  document.getElementById(id).style.background='#5D5FEF';
+        //  document.getElementById(id).style.color='#fff';
+
+        //  document.getElementById(oldId).style.background='#fff';
+        //  document.getElementById(oldId).style.color='#0000';
+
+        oldId=id; 
+    }
     return (
         <div className='exercise-container'>
             <div className='author'>
@@ -30,19 +42,19 @@ const ExerciseDetails = () => {
             <h2 className='brk'>Add A Break</h2>
 
             <div className='set-time'>
-                    <div>
+                    <div id='10s' onClick={()=>brackTime(10,'10s')}>
                         <h2>10s</h2>
                     </div>
-                    <div>
+                    <div id='20s' onClick={()=>brackTime(20,'20s')}>
                         <h2>20s</h2>
                     </div>
-                    <div>
+                    <div id='30s' onClick={()=>brackTime(30,'30s')}>
                         <h2>30s</h2>
                     </div>
-                    <div>
+                    <div id='40s' onClick={()=>brackTime(40,'40s')}>
                         <h2>40s</h2>
                     </div>
-                    <div>
+                    <div id='50s' onClick={()=>brackTime(50,'50s')}>
                         <h2>50s</h2>
                     </div>
             </div>
@@ -51,11 +63,11 @@ const ExerciseDetails = () => {
 
             <div className='exercise-time'>
                   <div><h1>Exercise time</h1></div>
-                  <div><p>2000</p><span>Sec</span></div>
+                  <div><p>{time}</p><span>Sec</span></div>
             </div>
             <div className='exercise-time'>
                   <div><h1>Brack Time</h1></div>
-                  <div><p>2000</p><span>Sec</span></div>
+                  <div><p id="brackText">00</p><span>Sec</span></div>
             </div>
 
             <div className='exercise-time btn'>

@@ -4,18 +4,30 @@ import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import './Container.css'
 const Container = () => {
 
-    const [details,setDetails]=useState([]);
+    const [details,SetDetails]=useState([]);
     useEffect(()=>{
         fetch('fakedb.json')
         .then(res=>res.json())
-        .then(data=>setDetails(data))
+        .then(data=>SetDetails(data))
     },[])
+    
+   const [totalTime,SetTotal]=useState(0)
 
+
+    const ExercisTime=(time)=>{
+        console.log(time);
+        let newTime = parseInt(totalTime) + parseInt(time);       
+         SetTotal(newTime)
+         
+    }
+    
+    
+    
     return (
         <div className='container'>
     
-            <CartContaier details={details}></CartContaier>
-            <ExerciseDetails></ExerciseDetails>
+            <CartContaier details={details} ExercisTime={ExercisTime} ></CartContaier>
+            <ExerciseDetails time={totalTime}></ExerciseDetails>
         </div>
     );
 };

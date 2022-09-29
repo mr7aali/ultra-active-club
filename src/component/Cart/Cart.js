@@ -6,8 +6,9 @@ const Cart = (props) => {
    
    
     const{name,blog,img,age,time}=props.detail;
- 
-   
+    const { ExercisTime}=props;
+  
+    
     
     return (
         <div className='full-cart'>
@@ -21,7 +22,7 @@ const Cart = (props) => {
                 <p>For Age: {age}</p>
                 <p>Time Required: {time}s</p>
             </div>
-            <button>
+            <button onClick={()=>ExercisTime(time)}>
                 <p>Add To list</p>
             </button>
         </div>

@@ -4,7 +4,8 @@ import Cart from '../Cart/Cart';
 
 import './CartCOntainer.css';
 
-const CartContaier = ({details}) => {
+const CartContaier = ({details,ExercisTime}) => {
+
     return (
         <div className='full-container'>
             <h1> Mainhealthtain-Your-Health </h1>
@@ -14,6 +15,7 @@ const CartContaier = ({details}) => {
               details.map(detail=><Cart
                key={detail.id}
                detail={detail}
+               ExercisTime={ExercisTime}
               ></Cart>)
             }
             </div>
